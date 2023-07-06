@@ -1,7 +1,7 @@
 <?php
     $testo = $_POST['testo'];
 
-    $password = $_POST['password'];
+    $password = $_POST['badWord'];
 
 
 ?>
@@ -18,7 +18,7 @@
         <?php echo ucfirst($testo) ?>
     </h1>
     <h1>
-        <?php echo str_replace($password,'***',$password)?>
+        <?php echo str_replace($password,'***',$testo)?>
     </h1>
 </body>
 </html>
