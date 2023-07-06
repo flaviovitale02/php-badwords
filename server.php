@@ -20,5 +20,11 @@
     <h1>
         <?php echo str_replace($password,'***',$testo)?>
     </h1>
+    <h1>
+        La lunghezza del testo è:
+    </h1>
+    <h2>
+        <?php echo strlen($testo)?>
+    </h2>
 </body>
 </html>
